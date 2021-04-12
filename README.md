@@ -1,6 +1,4 @@
-# Intro to Python
-
-## Prompt
+# Prompt
 Use Python to run analysis on two different datasets. The requirements for each are below.  
 - Financial Records
   * The total number of months included in the dataset
@@ -15,11 +13,13 @@ Use Python to run analysis on two different datasets. The requirements for each 
   * The percentage of votes each candidate won
   * The total number of votes each candidate won
   * The winner of the election based on popular vote.
-## Python Dependencies
+
+
+# Python Dependencies
 - OS
 - CSV  
 
-## Process
+# Process
 - **Open and Read CSV**  
 Both datasets are in CSV format so the process for reading the data is the same. We specify the CSV we're working with in `open()` and set it to r for read. The data is then stored in the variable "csv_reader". Since there is a header the `next()` is used to exclude it from the list.
 
@@ -42,5 +42,5 @@ To make the data easier to manipulate the CSV is separated into two seperate lis
   * All of the candidates are added to a dictionary. The key being the candidate's name and value being the total number of votes they received.
   * `Max()` with the candidate dictionary will give us the winner. F string and `print()` displays the election results in the terminal.  
   
-## Results
+# Results
 <img src="images/Results.png" height="auto">
