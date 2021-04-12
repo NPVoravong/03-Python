@@ -1,5 +1,5 @@
 # Prompt
-Use Python to run analysis on two different datasets. The requirements for each are below.  
+Use basic Python to run analysis on two different datasets. The requirements for each are below.  
 - Financial Records
   * The total number of months included in the dataset
   * The net total amount of "Profit/Losses" over the entire period
